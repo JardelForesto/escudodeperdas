@@ -5,6 +5,8 @@ Projeto Interdisciplinar II e III do curso de Gestão da Tecnologia da Informaç
 
 Trata-se de um protótipo para coletar e armazenar dados relativos a perdas de produtos para gestão e mapeamento do estoque com o celular.
 
+O projeto foi desenvolvido em liguagem Kotlin no AndroidStudio.
+
 O SISTEMA “ESCUDO DE PERDAS”
 
 O sistema Escudo de Perdas oferece uma solução para empresas de varejo, utilizando dados coletados pelos operadores de qualidade e prevenção de perdas para orientar as decisões dos gestores. Essas informações permitem mapear as quebras no estoque e implementar estratégias personalizadas, reduzindo as perdas nos estabelecimentos.
