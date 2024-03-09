@@ -1,4 +1,4 @@
-# escudodeperdas
+# Escudo de perdas
 Este projeto foi elaborado para compor a nota do Projeto Integrador da Faculdade.
 
 Projeto Interdisciplinar II e III do curso de Gestão da Tecnologia da Informação da Faculdade de Tecnologia de Campinas, elaborado sob orientação dos orientadores Prof. Anderson Barbosa e Prof. Anderson Coan.
