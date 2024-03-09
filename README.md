@@ -1,0 +1,2 @@
+# escudodeperdas
+My portfolio
