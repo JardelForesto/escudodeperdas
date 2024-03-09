@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".CadastroPerdaActivity">
+
+    <TextView
+        android:id="@+id/titulo_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1pt"
+        android:text="Cadastro de Perda"
+        android:textAlignment="center"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/digitecodbarras_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:allowUndo="false"
+        android:autoText="true"
+        android:contextClickable="true"
+        android:digits="0123456789"
+        android:ems="10"
+        android:hint="Digite o código de barras"
+        android:inputType="number"
+        android:maxLength="13"
+        android:singleLine="true"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/pesquisarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesquisar"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/produto_textView"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Produto:"
+        android:textAlignment="gravity"
+        android:textDirection="locale"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/preco_textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:text="Preço:"
+        android:textAlignment="gravity"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/digitequantidade_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:allowUndo="false"
+        android:autoText="true"
+        android:contextClickable="true"
+        android:digits="0123456789"
+        android:ems="10"
+        android:hint="Digite a quantidade"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+        <!-- Elementos filho do LinearLayout horizontal -->
+
+
+        <Button
+            android:id="@+id/consumofurto_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consumo/Furto"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/validade_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Validade"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/Avaria_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Avaria"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/armazenamento_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Armazenamento"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>
