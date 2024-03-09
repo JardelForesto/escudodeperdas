@@ -7,7 +7,7 @@ Trata-se de um protótipo para coletar e armazenar dados relativos a perdas de p
 
 O projeto foi desenvolvido em liguagem Kotlin no AndroidStudio.
 
-# O SISTEMA “ESCUDO DE PERDAS”
+<b>O SISTEMA “ESCUDO DE PERDAS”</b>
 
 O sistema Escudo de Perdas oferece uma solução para empresas de varejo, utilizando dados coletados pelos operadores de qualidade e prevenção de perdas para orientar as decisões dos gestores. Essas informações permitem mapear as quebras no estoque e implementar estratégias personalizadas, reduzindo as perdas nos estabelecimentos.
 
